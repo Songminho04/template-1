@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2? family = Inter: wght @ 200; 300 & display = swap');
+/* reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Inter', sans-serif;
+}
+
+.container{
+width: 80%;
+margin: 0 auto;
+height: 1000px;
+}
+
+/* === Nav Bar === */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px ;
+}
+
+
+.navbar .navbar__left .navbar__left-logo{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+.navbar .navbar__right .navbar__right-list{
+    display: flex;
+}
+
+.navbar .navbar__right .navbar__right-list li{
+    list-style: none;
+    margin-left: 50px;
+}
+.navbar .navbar__right .navbar__right-list .icon__menu{
+display: none;
+}
+
+.navbar .navbar__right .navbar__right-list li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #272D38;
+}
+
+
+/* ===hero section == */
+
+.h.section{
+display: flex;
+justify-content:space-between;
+margin-top: 100px;
+}
+.h.section .h.section__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.h.section .h.section__left h2{
+    font-weight: 700;
+    font-size: 64px;
+    max-width: 540px;
+    height: auto;
+}
+
+.h.section .h.section__left p{
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 500px;
+    color: #272D38;
+    height: auto;
+}
+.h.section .h.section__left button{
+    max-width: 167px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background: color #8eadd5; 
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+    
+.h.section .navbar__right img{
+    width: 100%;
+}
+
+
+/* company section */
+
+.c-section{
+margin-top: 160px;
+}
+
+.c-section .c-section__text{
+    text-align: center;
+    color: #667085;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.c-section .c-section__img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* brading section */
+
+.b-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 136px;
+}
+
+.b-section .navbar__left img{
+    width: 100%;
+}
+
+.b-section .b-section__right h2{
+    max-width: 435.69px;
+    height: auto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-top: 26px;
+}
+
+.b-section .b-section__right p{
+max-width: 392.22px;
+height: auto;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+text-transform: capitalize;
+color: #272D38;
+margin-bottom: 46px;
+}
+
+.b-section .b-section__right i.mobile{
+display: none;
+}
+
+/* custome section */
+
+.d-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 136px;
+}
+
+.d-section .navbar__left img{
+    width: 100%;
+}
+
+.d-section .d-section__right h2{
+    max-width: 435.69px;
+    height: auto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-top: 26px;
+}
+
+.d-section .d-section__right p{
+    max-width: 392.22px;
+    height: auto;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-bottom: 46px;
+    }
+
+ .d-section .d-section__right i.mobile{
+   display: none;
+    }
+    /* testimonials */
+
+    .t-section{
+        margin-top: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .t-section .t-section__text{
+    max-width: 122px;
+    height: auto;
+    font-weight: 600;
+    font-size: 16px;
+    color: #272D38;
+}
+    
+    .t-section .t-section__heading{
+        font-size: 48px;
+        font-weight: 700;
+        color: #272D38;
+        max-width: 435px;
+        height: auto;
+      text-align: center;
+      margin-top: 16px;
+      margin-bottom: 39px;
+    }
+
+    .t-section .t-section__list{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+.t-section .t-section__list .t-section__item{
+    width: 30%;
+    height: 335px;
+    border-radius: 10px;
+    background-color: #ccc;
+    padding: 30px 20px;
+}
+
+.t-section .t-section__list .t-section__item img{
+    display: block;
+    margin: 0 auto;
+}
+
+.t-section .t-section__list .t-section__item h4{
+margin-bottom: 30px;
+}
+
+
+.t-section .t-section__list .t-section__item p,
+.t-section .t-section__list .t-section__item h4{
+    text-align: center;
+}
