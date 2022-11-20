@@ -246,3 +246,144 @@ margin-bottom: 30px;
 .t-section .t-section__list .t-section__item h4{
     text-align: center;
 }
+
+/* Condition Section */
+
+.con-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 136px;
+}
+
+.con-section .con-section_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.con-section .con-section_right h1{
+    font-weight: 700;
+    font-size: 48px;
+    height: 102.1px;
+    max-width: 361px;
+    line-height: 48px;
+}
+
+.con-section .con-section_right p{
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 360px;
+    height: auto;
+    color: #272D38;
+    line-height: 27.5px;
+}
+
+.con-section .con-section_right button{
+    max-width: 167px;
+    height: 48px;
+    border-radius:10px;
+    border: none;
+    background-color: #8eadd5;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.con-section .con-section_left img{
+    width: 100%;
+}
+
+/* Footer */
+
+
+.footer .footer-above{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    height: auto;
+    margin-top: 138.57px;
+    margin-bottom: auto;
+}
+
+.footer .footer-above ul{
+    list-style-type: none;
+}
+
+.footer .footer-above li{
+    margin-top: 24px;
+}
+
+.footer .footer-above .footer-above_logo h2{
+    max-width: 139.74px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+
+.footer .footer-above .footer-above_logo p{
+    max-width: 189.29px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    margin-top: 40px;
+}
+
+.footer .footer-above .footer-above_resources h2{
+    max-width: 102.07px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+
+.footer .footer-above .footer-above_resources p{
+    max-width: 55.77px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.footer .footer-above .footer-above_company h2{
+    max-width: 85.23px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+
+.footer .footer-above .footer-above_company p{
+    max-width: 69.37px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.footer .footer-above .footer-above_socialmedia h2{
+    max-width: 123.19px;
+    height: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+
+.footer .footer-above .footer-above_socialmedia p{
+    max-width: 68.68px;
+    height: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.footer .footer-under{
+    text-align: center;
+    margin-top: 110px;
+}

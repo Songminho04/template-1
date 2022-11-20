@@ -130,7 +130,64 @@ width: 100%;
 margin-top: 20px;
 }
 
+/* Contact Section */
+.con-section{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
+.con-section .con-section_right h1{
+    text-align: center;
+    font-size: 32px;
+}
 
+.con-section .con-section_right p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+.con-section .con-section_right button{
+    display: block;
+    width: 100%;
+    margin: 48px auto; 
+}
+.con-section .con-section_left{
+    display: none;
+}
+
+/* Footer */
+
+.footer {
+    flex-direction: column;
+}
+
+.footer .footer-above{
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer .footer-above {
+    text-align: center;
+}
+
+.footer .footer-above .footer-above_logo{
+    margin: auto;
+}
+
+.footer .footer-above h2{
+    margin: 34px auto;
+    font-size: 18px;
+}
+
+.footer .footer-above li{
+    margin: 34px auto;
+    font-size: 16px;
+}
+
+.footer .footer-under p{
+    font-size: 12px;
+    margin-bottom: 24px;
+}
 
 
